@@ -6,7 +6,7 @@
 
 A tool for looking up an indicator of compromise (IP address, domain, URL, or file hash) across VirusTotal, AbuseIPDB, and Shodan, checking any CVEs it finds against CISA KEV and EPSS, and producing a 0–100 risk score with the evidence behind it.
 
-An LLM agent decides which lookups to run and which entities to pivot on. Scoring is plain deterministic code, so the model explains the result but never invents the number.
+An LLM agent decides which lookups to run and which entities to pivot on. Try it on https://ioc-enricher-one.vercel.app/
 
 <img width="964" height="582" alt="Pasted image 20260921122347" src="https://github.com/user-attachments/assets/6440bbab-85f5-4d88-9aef-8a6fff02c403" />
 
